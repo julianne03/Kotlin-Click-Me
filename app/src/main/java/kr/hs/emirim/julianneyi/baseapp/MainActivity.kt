@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         check1.setOnClickListener {
             val check = it as CheckBox
+            check1.setText("탕수육")
             Toast.makeText(
                 this,
                 "내가 좋아하는 것은" + check.text,
